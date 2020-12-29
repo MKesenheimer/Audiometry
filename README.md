@@ -12,3 +12,6 @@ make
 ```
 sudo port install libsdl2 libsdl2_gfx libsdl2_image libsdl2_mixer
 ```
+
+## Example
+![Example](https://raw.githubusercontent.com/MKesenheimer/Audiometry/main/Example.png)
