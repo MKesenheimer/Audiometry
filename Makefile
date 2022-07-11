@@ -44,7 +44,7 @@ INCLUDE = $(wildcard *.h $(UINCLUDE)/*.h)
 ########################################################################
 ## SDL
 CXX += $(shell sdl2-config --cflags)
-LDFLAGS += $(shell sdl2-config --static-libs) -lSDL2_gfx -lSDL2_image -lSDL2_net -lSDL2_ttf
+LDFLAGS += $(shell sdl2-config --static-libs) -lSDL2_gfx -lSDL2_image -lSDL2_ttf
 
 ########################################################################
 
