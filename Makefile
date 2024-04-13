@@ -44,7 +44,7 @@ INCLUDE = $(wildcard *.h $(UINCLUDE)/*.h)
 ########################################################################
 ## SDL
 CXX += $(shell sdl2-config --cflags)
-LDFLAGS += $(shell sdl2-config --static-libs) -lSDL2_gfx -lSDL2_image -lSDL2_ttf
+LDFLAGS += $(shell sdl2-config --libs) -lSDL2_gfx -lSDL2_image -lSDL2_ttf
 
 ########################################################################
 
@@ -60,7 +60,7 @@ LIB =
 # Frameworks
 # -framework SDL_gfx 
 # -framework SDL2 -framework SDL2_image -framework SDL2_gfx 
-FRM = -framework Cocoa
+#FRM = -framework Cocoa
 
 ########################################################################
 ## Linker files
